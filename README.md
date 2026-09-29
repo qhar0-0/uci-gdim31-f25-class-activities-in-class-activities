@@ -1,8 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
-
+When removing the camera from the Cat GameObject, the camera no longer follows the cat when the game is ran. This is because the camera follows whatever its parent object is.
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
