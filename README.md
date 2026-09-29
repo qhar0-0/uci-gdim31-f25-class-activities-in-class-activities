@@ -2,6 +2,7 @@
 ## Devlogs
 ### W1
 When removing the camera from the Cat GameObject, the camera no longer follows the cat when the game is ran. This is because the camera follows whatever its parent object is.
+Itch.io game link: https://doubledink2.itch.io/gdim-31-activity-w1
 ### W2
 
 ## Open-Source Assets
