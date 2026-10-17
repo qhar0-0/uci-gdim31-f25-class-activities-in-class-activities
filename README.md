@@ -10,14 +10,25 @@ The _bounce variable is an int rather than a bool, float, or string because it i
 Activity 1:
   Question 1:
     public string GetResponse(int friendshipLevel, bool secretRevealed)
+    
   Question 2:
     public void SetLightDimness(float sanityLevel)
+    
   Question 3:
     public bool DidPlayerHitBeat(float timeHit)
+
+    
 Activity 2:
+  
   Classes are an instructional handbook for assembling a PC (component) with the parts being the member variables and instructions being the methods
+
+
 Activity 3:
+
   The balls get extremely bright especially if they bounce too many times because the line where we use the GetCOlorMultiplier method increases the brightness of the ball that bounces since it is within the OnCollisionEnter2D method and that activates whenever the ball bounces. Therefore, the more the ball bounces, the brighter its color will become.
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
