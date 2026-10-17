@@ -8,13 +8,17 @@ The r, g, and b variables are floats because rgb can only go up to 1.0 and thus 
 The _bounce variable is an int rather than a bool, float, or string because it is a whole number representing the number of times the ball has bounced and thus must be an integer and not a float because you cannot have a decimal number of bounces. A bool only has 2 values: true and false, and thus cannot represent numbers. It also cannot be a string because it is not text but rather a variable integer that changes frequently. The main problem with the line of code was the fact that I subtracted 0.1 instead of 0.1f from g. The compiler could not understand what I was subtracting from g as there was no 'f' after the 0.1, causing the compiler to think I was subtracting a double rather than a float. 
 ### W3
 Activity 1:
+
   Question 1:
+    
     public string GetResponse(int friendshipLevel, bool secretRevealed)
     
   Question 2:
+    
     public void SetLightDimness(float sanityLevel)
     
   Question 3:
+  
     public bool DidPlayerHitBeat(float timeHit)
 
     
