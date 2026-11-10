@@ -31,6 +31,21 @@ Activity 3:
 
   The balls get extremely bright especially if they bounce too many times because the line where we use the GetCOlorMultiplier method increases the brightness of the ball that bounces since it is within the OnCollisionEnter2D method and that activates whenever the ball bounces. Therefore, the more the ball bounces, the brighter its color will become.
 
+### W7
+Unity Engine Resources:
+
+https://docs.google.com/document/d/179zDHWaZxqnBjZy0PR_jNnTRrSRR3sZZ_zDTDfMMah8/edit?usp=sharing
+
+Pair Programming:
+- Bat will follow player
+- Attached to ALL bat gameobjects
+- SerialzeField _speed variable
+- 'enabled' variable will be used for Starting and Stopping bat movement
+- Start() - begins bat chasing
+- Update() - moves bats towards player every frame
+- Follow() - custom method for bats to follow player
+- StopFollow() - custom method for stopping bat chase
+- moveTowards method
 
 
 ## Open-Source Assets
